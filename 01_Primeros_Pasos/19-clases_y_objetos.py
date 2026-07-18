@@ -29,3 +29,16 @@ print(cadena.count("Mundo"))  # Imprime: 1
 # numero = 10.lower()  # Esto generará un error, ya que los enteros no tienen el método lower()
 longitud = (10).bit_length() 
 print(longitud)  # Imprime: 4 porque el número 10 en binario es 1010, que tiene 4 bits.
+#los metodos son como funciones ligadas a un objeto, y se utilizan para realizar operaciones específicas sobre ese objeto.
+numero = 10
+print(numero.real)  # Imprime: 10, que es la parte real del número
+print(numero.imag)  # Imprime: 0, que es la parte imaginaria del número, esto es porque en Python los números enteros son tratados como números complejos con parte imaginaria igual a 0.
+#operar con distitos tipos de datos y convertirlos
+suma = 10 + 5.5  # Suma un entero y un flotante
+print(suma)  # Imprime: 15.5, el resultado es un flotante
+#si queremos convertir el resultado a un entero, podemos usar la función int():
+suma2 = 10 + "10" #esta línea generará un error, ya que no se puede sumar un entero y una cadena de texto directamente.
+suma3 = 10 + int("10")  # Convertimos la cadena "10" a entero antes de sumarla
+print(suma3)  # Imprime: 20
+suma_strings = "10" + "10"  # Concatenamos dos cadenas de texto
+print(suma_strings)  # Imprime: '1010', que es la concatenación de las dos cadenas
