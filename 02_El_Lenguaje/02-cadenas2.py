@@ -4,3 +4,4 @@ cadena = "Ivan tiene " + str(edad) + " años" #esto si funciona
 print(cadena)
 #Podemos usar el asterisco para multiplicar
 print("Batman "*2 + "na"*5)
+#1...
