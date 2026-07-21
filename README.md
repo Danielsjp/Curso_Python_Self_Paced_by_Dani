@@ -1,6 +1,7 @@
-# Curso Python From Zero To Hero
-
+<h1 align="center">
+⚡ FROM HERO TO ZERO ⚡
+</h1>
 
 <p align="center">
-  <img src="https://media.giphy.com/media/l0HlBO7eyXzSZkJri/giphy.gif" width="600">
+<img src="https://readme-typing-svg.demolab.com?font=Orbitron&size=35&duration=3000&pause=1000&color=00FF41&center=true&vCenter=true&width=900&lines=Code...;Compile...;Crash...;FROM+HERO+TO+ZERO" />
 </p>
