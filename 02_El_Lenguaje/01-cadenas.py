@@ -19,3 +19,8 @@ print(cadena)
 print("hay muchos otros caracteres de escape, como por ejemplo: \t para tabulador, \r para retorno de carro, \b para retroceso, entre otros") #esto no ha funcionado en 
 # la terminal de windows, pero si en la de linux.
 print("Tambien existen caracteres unicode, como por ejemplo: \u00A9 para el simbolo de copyright, \u00AE para el simbolo de marca registrada, entre otros")
+#hay otras formas de formatear cadenas de texto, como por ejemplo usando el metodo format() o f-strings, que veremos en los siguientes ejemplos.
+nombre = "juan"
+edad = 30.667
+print(f"Hola, mi nombre es {nombre.capitalize()} y tengo {edad:.1f} años")
+#esto es una forma de formatear cadenas de texto usando f-strings, que es una forma mas moderna y recomendada de hacerlo por su simplicidad y legibilidad.
